@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html { 
+  background: url(red_woman.svg) no-repeat 50% 50% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-size: 16px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("Fresh Script Upright.otf");
+}
+
+@font-face {
+	font-family: buttonFont;
+	src: url("Fresh Script.otf");
+}
+
+@font-face {
+	font-family: buttonFont2;
+	src: url("Alesand Extra Extrude.otf");
+}
+
+
+body {
+    font-family: myFirstFont;
+}
+
+main {
+	width: 50%;
+  	padding: 7% 10% 0% 40%;
+	font-size: 3rem;
+}
+
+
+body main p a {
+	
+	text-decoration: none;
+	color: black;
+	
+}
+
+body main p a:hover {
+	color: red;
+}
